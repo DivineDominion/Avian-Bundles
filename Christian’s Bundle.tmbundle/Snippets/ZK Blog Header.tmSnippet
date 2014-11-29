@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>---
+title: ${1:Title}
+created_at: `ruby -e 'puts Time.now'`
+kind: ${3:article}
+author: ${4:christian}
+tags: [ $5 ]
+${6:image: ${7:filename}}
+${8:url: ${9:URL}}
+${10:vgwort: ${11:ident}}
+comments: on
+---
+
+$0</string>
+	<key>name</key>
+	<string>ZK Blog Header</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>zkhead</string>
+	<key>uuid</key>
+	<string>EF835210-1BF0-44C0-88A0-2212D1A0E09E</string>
+</dict>
+</plist>

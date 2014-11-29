@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;%= insert_teaser_image title: "${2:alt title}", caption: %{${3:figure caption}} %&gt;</string>
+	<key>name</key>
+	<string>ZK Insert Image</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>zkimg</string>
+	<key>uuid</key>
+	<string>2EA44387-C8AC-4BB2-A79A-55E4F94338F1</string>
+</dict>
+</plist>

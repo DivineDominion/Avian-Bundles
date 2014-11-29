@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>---
+title: ${1:Title}
+created_at: `ruby -e 'puts Time.now'`
+kind: ${3:worklog}
+tags: [ $4 ]
+${5:image: ${6:filename}}
+${7:url: ${8:URL}}
+${9:vgwort: ${10:ident}}
+comments: on
+---
+
+$0</string>
+	<key>name</key>
+	<string>Blog Header</string>
+	<key>scope</key>
+	<string>text.html.markdown, attr.rev-path.*.de.christiantietze.Sites.ct.Users</string>
+	<key>tabTrigger</key>
+	<string>cthead</string>
+	<key>uuid</key>
+	<string>3501B3FF-8BC7-4933-9E42-701C9F0EE86F</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;%= insert_image file: "${1:filename}", title: "${2:alt title}"${3:, caption: "${4:figure caption}"}${5:, relative: "${6:link target}"}${7:, link: "${8:http://url.com}"} %&gt;</string>
+	<key>name</key>
+	<string>Insert Image</string>
+	<key>scope</key>
+	<string>text.html.markdown, attr.rev-path.*.de.christiantietze.Sites.ct.Users</string>
+	<key>tabTrigger</key>
+	<string>ctimg</string>
+	<key>uuid</key>
+	<string>1289FBB0-E5AA-4C6A-9489-4177D8742AC8</string>
+</dict>
+</plist>
