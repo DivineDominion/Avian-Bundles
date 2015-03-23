@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Style: Blockquote</string>
+	<key>scope</key>
+	<string>markup.quote</string>
+	<key>settings</key>
+	<dict>
+		<key>indentedSoftWrap</key>
+		<dict>
+			<key>format</key>
+			<string>${0/\S/ /g}</string>
+			<key>match</key>
+			<string>\A\s*([&gt;]\s+|(?=\w))</string>
+		</dict>
+	</dict>
+	<key>uuid</key>
+	<string>3DA48093-46A8-451D-BA81-33A07FFF7B65</string>
+</dict>
+</plist>
