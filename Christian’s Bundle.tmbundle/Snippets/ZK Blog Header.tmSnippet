@@ -12,7 +12,6 @@ tags: [ $5 ]
 ${6:image: ${7:filename}}
 ${8:url: ${9:URL}}
 ${10:vgwort: ${11:ident}}
-comments: on
 ---
 
 $0</string>
